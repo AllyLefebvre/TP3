@@ -62,8 +62,8 @@ footer p {
   gap: 20px;
 }
 
-#icon img {
-    height: 40px;
+.imgIcon {
+  height: 40px;
 }
 
 /********** INDEX ********/
@@ -84,4 +84,34 @@ main {
 .container img {
   width: 800px;
   height: auto;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: gray;
+}
+
+.headerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cardFlex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.space {
+    margin-top: 10px;
 }
