@@ -158,3 +158,58 @@ label {
 #confirmationSection h1{
   text-align: center;
 }
+
+/********** Commande ********/
+
+.tableFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+
+div table  {
+  background-color: #ccc;
+  color: black;
+  border-spacing: 20px;
+}
+
+.food {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.food td, .food th {
+  padding: 8px;
+}
+
+.food td {
+  color: black;
+}
+
+.food tr:nth-child(even){background-color: gray;}
+
+.food tr:hover {background-color: #ddd;}
+
+.food th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ a:hover, a:active {
+  background-color: grey;
+}
+
