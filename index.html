@@ -1,204 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page d'acceuil</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <script src="myscripts.js"></script>
-  </head>
-  <body>
-    <header>
-      <div id="logo">
-        <a href="index.html"><img src="images/logoLionel.png" alt="Logo" /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page d'acceuil</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <a href="index.html"><img src="images/logoLionel.png" alt="Logo" /></a>
+    </div>
+    <nav id="navBar">
+      <a href="index.html">Accueil</a>
+      <a href="reservation.html">Réservation</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a id="commande" href="order.html">Ma commande</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+  </header>
+  <main>
+    <section class="container">
+      <div>
+        <h1>Chez Lionel</h1>
+        <p>
+          Ouvert depuis 2013, Chez Lionel est un restaurant de quartier de
+          type brasserie française qui propose un menu bistronomique signé par
+          notre chef exécutif Frédéric Dufort. Nous sommes ouverts 7 soirs et
+          nous proposons un menu pour le midi, en semaine, ainsi que des
+          brunchs le week-end. Notre carte des vins est composée
+          d’importations privées, sélectionnées par notre caviste.
+        </p>
+        <a href="order.html">Commander en ligne</a>
+        <a href="reservation.html">Réserver</a>
       </div>
-      <nav id="navBar">
-        <a href="index.html">Accueil</a>
-        <a href="reservation.html">Réservation</a>
-        <a href="restaurant.html">Restaurant</a>
-        <a id="commande" href="order.html">Ma commande</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
-    </header>
-    <main>
-      <section class="container">
-        <div>
-          <h1>Chez Lionel</h1>
-          <p>
-            Ouvert depuis 2013, Chez Lionel est un restaurant de quartier de
-            type brasserie française qui propose un menu bistronomique signé par
-            notre chef exécutif Frédéric Dufort. Nous sommes ouverts 7 soirs et
-            nous proposons un menu pour le midi, en semaine, ainsi que des
-            brunchs le week-end. Notre carte des vins est composée
-            d’importations privées, sélectionnées par notre caviste.
-          </p>
-          <a href="order.html">Commander en ligne</a>
-          <a href="reservation.html">Réserver</a>
-        </div>
-        <div>
-          <img src="images/platsAccueil.jpg" alt="Plats" />
-        </div>
-      </section>
-      <section>
-        <div>
-          <h1>Témoignages</h1>
-          <h2>Clients satisfait</h2>
-        </div>
-        <div class="flex space">
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/hommeLogo.png"
-                alt="logo homme"
-                class="imgIcon"
-              />
-              <div>Jean</div>
-            </div>
-            <div>
-              <p>
-                L'ambiance typiquement parisienne et la cuisine raffinée font de
-                cette brasserie une adresse incontournable. Les plats sont
-                généreux, savoureux et préparés avec des ingrédients de qualité.
-              </p>
-            </div>
+      <div>
+        <img src="images/platsAccueil.jpg" alt="Plats" />
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1>Témoignages</h1>
+        <h2>Clients satisfait</h2>
+      </div>
+      <div class="flex space">
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/hommeLogo.png" alt="logo homme" class="imgIcon" />
+            <div>Jean</div>
           </div>
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/femmeLogo.png"
-                alt="logo femme"
-                class="imgIcon"
-              />
-              <div>Julie</div>
-            </div>
-            <div>
-              <p>
-                La brasserie propose un large choix de plats traditionnels
-                français, des escargots au bœuf bourguignon, en passant par une
-                excellente crème brûlée. Un vrai régal pour les amateurs de
-                cuisine française !
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/hommeLogo.png"
-                alt="logo homme"
-                class="imgIcon"
-              />
-              <div>Alex</div>
-            </div>
-            <div>
-              <p>
-                La brasserie propose un large choix de plats traditionnels
-                français, des escargots au bœuf bourguignon, en passant par une
-                excellente crème brûlée. Un vrai régal pour les amateurs de
-                cuisine française !
-              </p>
-            </div>
+          <div>
+            <p>
+              L'ambiance typiquement parisienne et la cuisine raffinée font de
+              cette brasserie une adresse incontournable. Les plats sont
+              généreux, savoureux et préparés avec des ingrédients de qualité.
+            </p>
           </div>
         </div>
-        <div class="flex space">
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/femmeLogo.png"
-                alt="logo femme"
-                class="imgIcon"
-              />
-              <div>Alice</div>
-            </div>
-            <div>
-              <p>
-                La décoration est soignée, avec une touche rétro qui rappelle
-                les grandes brasseries parisiennes. L'ambiance est à la fois
-                chic et détendue, parfaite pour un repas entre amis ou en
-                famille.
-              </p>
-            </div>
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/femmeLogo.png" alt="logo femme" class="imgIcon" />
+            <div>Julie</div>
           </div>
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/femmeLogo.png"
-                alt="logo femme"
-                class="imgIcon"
-              />
-              <div>Amandine</div>
-            </div>
-            <div>
-              <p>
-                Chaque plat sent bon le fait maison, avec des produits frais et
-                bien travaillés. Le chef met en avant des recettes de saison, ce
-                qui donne envie de revenir à chaque nouvelle carte.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardFlex">
-              <img
-                src="images/hommeLogo.png"
-                alt="logo homme"
-                class="imgIcon"
-              />
-              <div>Benoit</div>
-            </div>
-            <div>
-              <p>
-                Pour la qualité des plats servis et l’expérience globale, les
-                prix sont plus que raisonnables. Une adresse à recommander sans
-                hésitation pour un bon repas à la française !
-              </p>
-            </div>
+          <div>
+            <p>
+              La brasserie propose un large choix de plats traditionnels
+              français, des escargots au bœuf bourguignon, en passant par une
+              excellente crème brûlée. Un vrai régal pour les amateurs de
+              cuisine française !
+            </p>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/hommeLogo.png" alt="logo homme" class="imgIcon" />
+            <div>Alex</div>
+          </div>
+          <div>
+            <p>
+              La brasserie propose un large choix de plats traditionnels
+              français, des escargots au bœuf bourguignon, en passant par une
+              excellente crème brûlée. Un vrai régal pour les amateurs de
+              cuisine française !
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex space">
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/femmeLogo.png" alt="logo femme" class="imgIcon" />
+            <div>Alice</div>
+          </div>
+          <div>
+            <p>
+              La décoration est soignée, avec une touche rétro qui rappelle
+              les grandes brasseries parisiennes. L'ambiance est à la fois
+              chic et détendue, parfaite pour un repas entre amis ou en
+              famille.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/femmeLogo.png" alt="logo femme" class="imgIcon" />
+            <div>Amandine</div>
+          </div>
+          <div>
+            <p>
+              Chaque plat sent bon le fait maison, avec des produits frais et
+              bien travaillés. Le chef met en avant des recettes de saison, ce
+              qui donne envie de revenir à chaque nouvelle carte.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardFlex">
+            <img src="images/hommeLogo.png" alt="logo homme" class="imgIcon" />
+            <div>Benoit</div>
+          </div>
+          <div>
+            <p>
+              Pour la qualité des plats servis et l’expérience globale, les
+              prix sont plus que raisonnables. Une adresse à recommander sans
+              hésitation pour un bon repas à la française !
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="flex">
+      <div>
+        <p>Réaliser par: Allyson Lefebvre</p>
+      </div>
       <div class="flex">
-        <div>
-          <p>Réaliser par: Allyson Lefebvre</p>
-        </div>
-        <div class="flex">
-          <p>Réseaux sociaux:</p>
-          <a
-            href="https://www.facebook.com/ChezLionel.ca/"
-            target="_blank"
-            title="facebook"
-            ><img src="images/facebook.png" alt="facebook" class="imgIcon"
-          /></a>
-          <a
-            href="https://www.instagram.com/chez_lionel/"
-            target="_blank"
-            title="instagram"
-            ><img src="images/instagram.png" alt="instagram" class="imgIcon"
-          /></a>
-          <a
-            href="https://www.tiktok.com/@chez.lionel"
-            target="_blank"
-            title="tik tok"
-            ><img src="images/tic-tac.png" alt="tiktok" class="imgIcon"
-          /></a>
-          <a
-            href="https://www.linkedin.com/company/restaurant-chez-lionel/"
-            target="_blank"
-            title="linkedin"
-            ><img src="images/linkedin.png" alt="linkedin" class="imgIcon"
-          /></a>
-        </div>
+        <p>Réseaux sociaux:</p>
+        <a href="https://www.facebook.com/ChezLionel.ca/" target="_blank" title="facebook"><img
+            src="images/facebook.png" alt="facebook" class="imgIcon" /></a>
+        <a href="https://www.instagram.com/chez_lionel/" target="_blank" title="instagram"><img
+            src="images/instagram.png" alt="instagram" class="imgIcon" /></a>
+        <a href="https://www.tiktok.com/@chez.lionel" target="_blank" title="tik tok"><img src="images/tic-tac.png"
+            alt="tiktok" class="imgIcon" /></a>
+        <a href="https://www.linkedin.com/company/restaurant-chez-lionel/" target="_blank" title="linkedin"><img
+            src="images/linkedin.png" alt="linkedin" class="imgIcon" /></a>
       </div>
-      <div id="line"></div>
-      <div class="flex">
-        <div>
-          <p>Intégration web 1</p>
-        </div>
-        <div>
-          <p>Cégep de Trois-rivière Automne 2024</p>
-        </div>
+    </div>
+    <div id="line"></div>
+    <div class="flex">
+      <div>
+        <p>Intégration web 1</p>
       </div>
-    </footer>
-  </body>
+      <div>
+        <p>Cégep de Trois-rivière Automne 2024</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navBar");
+      console.log('test')
+      if (x.id === "navBar") {
+        x.id += " responsive";
+      } else {
+        x.id = "navBar";
+      }
+    }
+  </script>
+</body>
+
 </html>
